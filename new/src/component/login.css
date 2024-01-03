@@ -1,0 +1,72 @@
+.login-background {
+    background-image: url("https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .centered-form
+  {
+    background-color: rgba(231, 237, 236, 0.9); 
+  width: 80%;
+  max-width: 400px; 
+  min-height: 500px;
+  padding: 20px;
+  position: fixed;
+  margin-bottom: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 7px 7px 8px rgba(0, 0, 0, 0.3);
+  text-align: center; 
+  }
+  .App
+  {
+     background-color: rgb(231, 237, 236);
+     width:10cm;
+     height: 50vh;
+     margin-top: 21%;
+     border-radius: 20px;
+     text-transform: capitalize;
+     box-shadow: 5px 7px 7px 8px rgb(0, 0, 0,0.3);
+     margin-left: 65%;
+  
+  }
+  .in1
+  {
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  button:hover{
+    background-color: black;
+    color: rgb(8, 172, 93);
+  }
+  button{
+    width: 125px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: black;
+    background-color:rgb(8, 172, 93);
+    font-size: 17px;
+    color: #fff;
+    padding-bottom: 5px; 
+    margin-left: 34px;
+    border-radius: 10px;
+    border-radius: 50px;
+  
+  }
+  .b:hover
+  {
+    color: rgb(8, 172, 93);
+  }

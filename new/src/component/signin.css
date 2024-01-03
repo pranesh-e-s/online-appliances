@@ -1,0 +1,64 @@
+.signup1 {
+  background-image: url("https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find {
+  background-color: rgba(231, 237, 236, 0.9); 
+  width: 80%;
+  max-width: 400px; 
+  min-height: 500px;
+  padding: 20px;
+  position: fixed;
+  margin-bottom: -17px;
+  margin-left: 70%;
+  border-radius: 20px;
+  box-shadow: 5px 7px 7px 8px rgba(0, 0, 0, 0.3);
+  text-align: center; 
+}
+
+.te {
+  width: calc(100% - 22px);
+  height: 30px;
+  border-radius: 9px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.but:hover {
+  background-color: black;
+  color: rgb(8, 172, 93);
+}
+
+.but {
+  width: calc(95% - 28px);
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: black;
+  background-color: rgb(8, 172, 93);
+  font-size: 17px;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.b:hover {
+  color: rgb(8, 172, 93);
+}
+
+.text-1 {
+  padding: 10px;
+  font-size: 15px;
+}

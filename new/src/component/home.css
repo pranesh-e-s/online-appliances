@@ -1,0 +1,188 @@
+.fix
+{
+  position: fixed;
+  width: 100%;
+}
+nav {
+  background-color:lightblue;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 1000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin-right: 25px;
+}
+li:last-child {
+  margin-right: 50px; 
+
+}
+
+li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+}
+.centerItems
+{
+  padding-right: 110px;
+}
+.search{
+  height: 25px;
+  width: 20%;
+  padding-left: 25px;
+  position: absolute;
+}
+.logo{
+  position: relative;
+  padding: 10px;
+  margin-top: -6px;
+  left: auto;
+}
+.logoImage {
+  height: 30px; 
+  width: auto; 
+  max-width: 100%;
+}
+.bo
+{
+  background-color:blue;
+  font-size: medium;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+/* The picture line code */
+.image-list {
+  padding-left: 215px;
+  padding-right: 205px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease-in-out;
+}
+
+.item {
+margin-top: 100px;
+  text-align: center;
+  width: 20%; 
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.item img {
+  width: auto;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.item p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+.item:hover {
+transform: scale(1.1); 
+}
+/*the scrolling page */
+
+
+.slick-slide img {
+padding-left: 150px;
+padding-right: 150px;
+max-height: 270px;
+width: 80%;
+height: 270px;
+}
+
+/*recently search and popular search */
+.recent-searches
+{
+margin-top: 50px;
+}
+.search-items {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.search-item {
+width: calc(23.33% - 20px);
+margin: 10px;
+}
+.product-image {
+max-width: 100%;
+height: auto;
+max-height: 150px;
+}
+.product-details {
+margin-top: 10px;
+}
+.change {
+color:black;
+transition: color 0.3s;
+}
+.change:hover{
+color: blue;
+}
+
+
+.container1 {
+  margin-top: 40px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px;
+background-color: #333;
+color: white;
+}
+
+.column {
+flex: 1;
+margin-right: 20px; 
+}
+
+.column:last-child {
+margin-right: 0;
+}
+
+.logoImage img {
+width: auto;
+height: 50px;
+display: block;
+margin-top: 5px;
+padding: 10px;
+}
+.icon
+{
+padding:10px;
+min-height: 23px;
+min-width:auto;
+}
+.copyright{
+max-width: 1200px;
+margin: auto;
+padding: 1rem;
+font-size: 0.8rem;
+text-align: center;
+}
+.pri 
+{
+    text-decoration: none;
+    color: white;
+}
